@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var nameTextFiled: UITextField!
     @IBOutlet weak var nameLable: UILabel!
+    @IBAction func setLabletext(_ sender: UIButton) {
+        nameLable.text = nameTextFiled.text
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
