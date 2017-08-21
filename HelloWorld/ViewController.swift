@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     @IBAction func welcomePressed(_ sender: Any) {
         titleimage.isHidden = false
         welcomeButton.isHidden = true
-        background.isHidden = false
+        background.isHidden = true
     }
     
 }
